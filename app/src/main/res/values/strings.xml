@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Splash_screen</string>
+    <string name="str1">A Bold Navy Blue And White Modular Kitchen Design</string>
+    <string name="str2">A Blue L-Shaped Modular Kitchen Design With A Tiled Backsplash</string>
+    <string name="str3">Stylish and Roomy Pastel U-Shaped Kitchen Design For Couples</string>
+    <string name="str4">Vibrant Red and Yellow Parallel Kitchen Design</string>
+    <string name="Filterchip_name">Filter_chip</string>
+    <string name="Details1">This royal blue and white modular kitchen with floral tiles is for those who want to make a statement. This kitchen design with clever storage options makes working easier and much cleaner.
+
+        <u><b>Special Features </b></u>
+        <b><i> An oil and spice pull out.</i></b>
+        <b><i> Bi-fold lift up kitchen wall module.</i></b>
+        <b><i>A tall unit with in-built microwave and grill.</i></b>
+
+
+    </string>
+    <string name="CA">Choose area</string>
+    <string name="_1bhk">1BHK</string>
+    <string name="_2bhk">2BHK</string>
+    <string name="_3bhk">3BHK</string>
+    <string name="_4_bhk">4+BHK</string>
+    <string name="independent_home">INDEPENDENT HOME</string>
+    <string name="get_profiles">Get Profiles</string>
+    <string name="delhi">DELHI</string>
+    <string name="pune">PUNE</string>
+    <string name="chennai">CHENNAI</string>
+    <string name="banglore">BANGLORE</string>
+    <string name="mysore">MYSORE</string>
+    <string name="bhopal">BHOPAL</string>
+    <string name="gujrat">GUJRAT</string>
+    <string name="banaras">BANARAS</string>
+    <string name="kerala">KERALA</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="_3_months"><![CDATA[<3 months]]></string>
+    <string name="_3_6_months">3-6 months</string>
+    <string name="more_than_6_months">more than 6 months</string>
+    <string name="choose_your_city_name">Choose your city name</string>
+    <string name="noida">NOIDA</string>
+    <string name="details_or_book_appointment">Details or book appointment</string>
+
+    <!--for recyclerview-->
+    <string name="name">Name</string>
+    <string name="maurya2026_gmail_com">maurya2026@gmail.com</string>
+    <string name="hello">Hello</string>
+    <string name="Call">Call</string>
+    <string name="location">location</string>
+    <string name="book_appointment">book_appointment</string>
+    <string name="designs">designs</string>
+    <string name="swati">Swati</string>
+    <string name="Hello">Hello</string>
+    <string-array name="Names">
+        <item>Person 1</item>
+        <item>Person 2</item>
+        <item>Person 3</item>
+        <item>Person 4</item>
+        <item>Person 5</item>
+        <item>Person 6</item>
+        <item>Person 7</item>
+        <item>Person 8</item>
+        <item>Person 9</item>
+        <item>Person 10</item>
+    </string-array>
+
+    <string-array name="emails">
+        <item>maurya2026@gmail.com</item>
+        <item>maurya1026@gmail.com</item>
+        <item>maurya2086@gmail.com</item>
+        <item>maurya2426@gmail.com</item>
+        <item>maurya2028@gmail.com</item>
+        <item>maurya2026@gmail.com</item>
+        <item>maurya1026@gmail.com</item>
+        <item>maurya2086@gmail.com</item>
+        <item>maurya2426@gmail.com</item>
+        <item>maurya2028@gmail.com</item>
+    </string-array>
+</resources>

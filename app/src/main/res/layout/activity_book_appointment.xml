@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e5e698"
+    tools:context=".BookAppointment"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/firsttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CA"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip1"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1bhk"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/firsttext"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip2"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2bhk"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/chip1"
+        app:layout_constraintTop_toBottomOf="@id/firsttext"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip3"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3bhk"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        app:layout_constraintRight_toLeftOf="@id/chip2"
+        app:layout_constraintStart_toEndOf="@id/chip2"
+        app:layout_constraintTop_toBottomOf="@id/firsttext"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_bhk"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintRight_toLeftOf="@id/chip3"
+        app:layout_constraintStart_toEndOf="@id/chip3"
+        app:layout_constraintTop_toBottomOf="@id/firsttext"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/independent_home"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/chip1"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sectext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/choose_your_city_name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/chip1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city1"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delhi"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/sectext"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city2"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noida"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/city1"
+        app:layout_constraintTop_toBottomOf="@id/sectext"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city3"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pune"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintRight_toLeftOf="@id/city2"
+        app:layout_constraintStart_toEndOf="@id/city2"
+        app:layout_constraintTop_toBottomOf="@id/sectext"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city4"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chennai"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintRight_toLeftOf="@id/city3"
+        app:layout_constraintStart_toEndOf="@id/city3"
+        app:layout_constraintTop_toBottomOf="@id/sectext"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city5"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banglore"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/city6"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city6"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mysore"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/city1"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city7"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bhopal"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/city2"
+        app:layout_constraintStart_toEndOf="@id/city6"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city8"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gujrat"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/city7"
+        app:layout_constraintTop_toBottomOf="@id/city3"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city9"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banaras"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/city5"
+        app:layout_constraintTop_toBottomOf="@id/city7"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/city10"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kerala"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/city9"
+        app:layout_constraintTop_toBottomOf="@id/city8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/time_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal"
+        android:text="@string/choose_time"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/city6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/time_range1"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_months"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/time_Text"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/time_range2"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_6_months"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@id/time_range1"
+        app:layout_constraintTop_toBottomOf="@id/time_Text"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/time_range3"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_than_6_months"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/time_range1"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="392dp"
+        android:layout_height="63dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="655dp">
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getprofilebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:background="#98ace6"
+        android:text="@string/get_profiles"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/city9"
+        tools:ignore="NotSibling"
+        tools:layout_editor_absoluteX="18dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
